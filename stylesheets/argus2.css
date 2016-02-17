@@ -1,0 +1,225 @@
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-left: 50px;
+}
+
+p {
+	margin: 15px;
+}
+
+.a {
+	background-image: url('../rsc/Argus2/bg.jpg');
+}
+
+.a h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+}
+
+.a a {
+	color: white;
+	font-size: 2.5em;
+}
+
+.a a:hover {
+	font-style: italic;
+}
+
+.a .ul1 {
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.a li {
+	padding: 10px;
+	list-style-type: none;
+}
+
+.b p {
+	display: block;
+	width: 80%;
+	margin: 15px auto;
+}
+
+.b .imgs {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.b .imgs img {
+	height: 250px;
+}
+
+.c h2 {
+	margin-bottom: 20px;
+}
+
+.c li {
+	margin-left: 25px;
+}
+
+.c .texts {
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 240px;
+}
+
+.c .texts p {
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+	margin: 0 3%;
+}
+
+.c .ul {
+	position: absolute;
+	left: 0;
+	top: 130px;
+}
+
+.c .imgs {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
+.c .imgs img {
+	display: block;
+	width: 500px;
+}
+
+.d img {
+	vertical-align: top;
+	display: inline-block;
+	width: 35%;
+}
+
+.d p {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+
+.d .rp {
+	margin-top: 60px;
+}
+
+.d .lp {
+	margin-top: 30px;
+}
+
+.d .p {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.e .prob {
+	text-decoration: underline;
+}
+
+.e a {
+	font-style: italic;
+	color: blue;
+}
+
+.e a:hover {
+	text-decoration: underline;
+}
+
+.exp-container, .exp-result {
+	width: 100%;
+	z-index: 0;
+}
+
+.conclusion {
+	margin: 40px 50px;
+	text-align: left;
+}
+
+.exp-code {
+	margin: 20px 0;
+}
+
+.exp-code .img {
+	display: inline-block;
+	width: 20%;
+	margin: 0 2%;
+	vertical-align: top;
+}
+
+.exp-code .info {
+	display: inline-block;
+	width: 75%;
+}
+
+.exp-result {
+	text-align: center;
+}
+
+.exp-result figcaption {
+	text-decoration: underline;
+}
+
+.exp-result .l1 figure {
+	display: inline-block;
+	width: 25%;
+	margin: 2%;
+}
+
+.exp-result .l2 figure {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+}
+
+.exp-result img {
+	width: 100%;
+}
+
+.exp-result {
+	margin: 70px 0;
+}
+
+#avantages {
+	width: 100%;
+	z-index: 0;
+}
+
+#avantages p {
+	display: block;
+	width: 80%;
+	margin: 15px auto;
+}
+
+#avantages .imgs {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#avantages .imgs img {
+	display: inline-block;
+	height: 300px;
+	margin: 1.5%;
+}
+
+.f .imgs {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.f .imgs img {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1.5%;
+}
+

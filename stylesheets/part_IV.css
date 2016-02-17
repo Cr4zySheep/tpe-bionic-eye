@@ -1,0 +1,77 @@
+h1 {
+	font-size: 2.5em;
+	margin-left: 50px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-left: 40px;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin-left: 80px;
+}
+
+p {
+	margin: 20px;
+}
+
+.ev-container {
+	width: 100%;
+	z-index: 0;
+}
+
+.a h1 {
+	font-size: 4em;
+}
+
+.a h2 {
+	font-size: 2.5em;
+}
+
+.a h1, .a ul {
+	margin-right: 50px;
+}
+
+.a ul {
+	margin-top: 20px;
+}
+
+.a a:hover {
+	font-style: italic;
+	color: #00FFFF;
+}
+
+.a {
+	text-align: right;
+	background-image: url('../rsc/part4/bg.jpg');
+}
+
+.a, .a a {
+	color: #00BFFF;
+}
+
+figure {
+	margin: 40px 0;
+	text-align: center;
+}
+
+figcaption {
+	text-decoration: underline;
+}
+
+.cataracte img {
+	display: inline-block;
+	width: 45%;
+	margin: 0 2%;
+}
+
+.argus img {
+	height: 250px;
+	margin: 2%;
+}
+
+.mhox img {
+	height: 400px;
+}

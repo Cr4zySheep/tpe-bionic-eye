@@ -1,0 +1,123 @@
+h1 {
+	font-size: 2.5em;
+}
+
+.a {
+	background-image: url('../rsc/AlphaIMS/bg.jpg');
+}
+
+.a h1 {
+	font-size: 4em;
+	text-align: right;
+	margin-right: 70px;
+	margin-top: 40px;
+}
+
+.a ul {
+	display: inline-block;
+	margin-top: 170px;
+	margin-left: 40px;
+}
+
+.a li {
+	margin-left: 15px;
+	list-style: none;
+	text-align: center;
+}
+
+.a a {
+	font-size: 2.5em;
+}
+
+.a a:hover {
+	text-decoration: underline;
+}
+
+.b h1 {
+	font-size: 3em;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+
+p {
+	margin: 20px;
+}
+
+.b .inline {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+.b .imgs {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 450px;
+	left: 70px;
+}
+
+.b .imgs img {
+	margin: 0 20px;
+	height: 150px;
+}
+
+#mapView {
+	margin: 20px;
+	display: inline-block;
+	width: 44%;
+}
+
+.c li {
+	margin-left: 50px;
+}
+
+.c .d1, .c .d2 {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.c .d1 {
+	vertical-align: top;
+	width: 60%;
+}
+
+.c .d2 {
+	width: 35%;
+}
+
+.c .d2 img {
+	width: 100%;
+}
+
+.d {
+	text-align: center;
+}
+
+.d p {
+	display: inline-block;
+	width: 90%;
+}
+
+.e h1 {
+	margin-left: 50px;
+}
+
+.e img {
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.f h1 {
+	margin-left: 50px;
+}
+
+.f .img img {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1.5%;
+}
+
+

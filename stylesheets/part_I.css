@@ -1,0 +1,206 @@
+.plan {
+	background: url('../rsc/part1/bg.jpg') no-repeat;
+}
+
+.plan .content {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 30px;
+	text-align: center;
+	width: 810px;
+}
+
+.plan h1 {
+	font-size: 4em;
+	margin-bottom: 40px;
+}
+
+.plan ul {
+	text-align: left;
+}
+
+.plan li {
+	list-style-type: none;
+}
+
+.plan h2 {
+	font-size: 2.5em;
+}
+
+.plan a:hover {
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+#A {
+	background-color: white;
+}
+
+#A #h1 {
+	font-size: 4em;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+
+#A #eye_struct {
+	position: absolute;
+	right: 50px;
+	top: 175px;
+
+	width: 450px;
+}
+
+#A #d1 {
+	display: block;
+	width: 700px;
+
+	position: absolute;
+	left: 50px;
+	top: 220px;
+}
+
+#A #d1 li {
+	margin-left: 50px;
+}
+
+#A #d2 {
+	width: 1200px;
+	margin: 0 100px;
+	position: absolute;
+	top: 475px;
+	text-align: justify;
+}
+
+#A #d2 p{
+	display: inline-block;
+	width: 300px;
+	margin: 0 40px;
+	vertical-align: top;
+}
+
+#B {
+	background-color: white;
+}
+
+#B li {
+	margin-left: 50px;
+}
+
+#B #d3 {
+	width: 600px;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+
+#B #retina_cells {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
+#C .images {
+	width: 45%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#C .images img {
+	width: 100%;
+}
+
+#C p {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#D h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+#D .subcontainer div {
+	width: 45%;
+	display: inline-block;
+	margin: 0 1%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#D img {
+	width: 80%;
+}
+
+#D p {
+	text-align: right;
+}
+
+#E .subcontainer div {
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+#E .img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#E img {
+	width: 42%;
+}
+
+#F h1 {
+	font-size: 4em;
+	text-align: right;
+	margin-right: 20px;
+}
+
+#F .subcontainer div {
+	display: inline-block;
+	width: 45%;
+	margin: 0 2%;
+	vertical-align: middle;
+}
+
+#F .pictures {
+	text-align: center;
+}
+
+#F img {
+	width: 80%;
+}
+
+.diseases .column {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	height: 100%;
+}
+
+.diseases .column .row {
+	width: 80%;
+	margin: 0 5%;
+	height: 100%;
+}
+
+.diseases h2 {
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.diseases img {
+	width: 50%;
+	border-radius: 15px;
+}
+
+.diseases .right {
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+}

@@ -1,0 +1,182 @@
+.a {
+	background-image: url('../rsc/part2/bg.jpg');
+}
+
+.a h1 {
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	top: 225px;
+	left: 40px;
+}
+
+.a h2 {
+	font-size: 2.5em;
+}
+
+.a a:hover {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.a ul {
+	display: table;
+	width: 600px;
+
+	position: absolute;
+	top: 318px;
+	right: 40px;
+
+	text-align: center;
+}
+
+.a li {
+	display: table-cell;
+	list-style-type: none;
+}
+
+.a a {
+	color: black;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.b .text {
+	display: inline-block;
+	margin-left: 70px;
+	width: 50%;
+	margin-left: 70px;
+	margin-top: 50px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.b p {
+	text-align: justify;
+	margin: 30px 0;
+}
+
+.b .imgs {
+	display: inline-block;
+	width: 35%;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.b .imgs img {
+	width: 100%;
+}
+
+.c .header {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.c .header h1, .c .header img {
+	display: inline-block;
+	margin: 0 50px;
+}
+
+.c .header h1 {
+	font-size: 3em;
+	vertical-align: top;
+	margin-top: 20px;
+} 
+
+.c .header img {
+	width: 40%;
+}
+
+.c p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.c .imgs {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.c .imgs img {
+	margin: 0 40px;
+}
+
+.wrapper div {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	margin: 0 2%;
+}
+
+.wrapper {
+	margin-top: 150px;
+}
+
+.e li {
+	margin-left: 40px;
+}
+
+.e h1 {
+	margin-bottom: 30px;
+}
+
+.e h2 {
+	margin-bottom: 20px;
+}
+
+.e .texts {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 70px;
+	width: 70%;
+}
+
+.e .info {
+	margin-left: 20px;
+}
+
+.e .info .text {
+	margin-left: 20px;
+}
+
+.e .imgs {
+	display: inline-block;
+	width: 22%;
+	vertical-align: bottom;
+}
+
+.e .imgs img {
+	margin: 10px 30px;
+	width: 100%;
+}
+
+.f .text {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 50%;
+}
+
+.f .text h2 {
+	margin-bottom: 20px;
+}
+
+.f .text p {
+	margin-left: 20px;
+}
+
+.f .imgs {
+	display: inline-block;
+}
+
+.f .imgs img {
+	width: 100%;
+	margin-left: 100px;
+}
