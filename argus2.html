@@ -86,7 +86,7 @@
 					<img src="rsc/Argus2/fonctionnement1.jpg">
 				</div>
 				<div class="left">
-					<img src="rsc/Argus2/fonctionnement2.png">
+					<img src="rsc/Argus2/fonctionnement2.PNG">
 					<p class="lp">La caméra digitale permet d'obtenir des images sous forme de matrices ou tableaux de pixels à l'aide de l'unité de traitement vidéo. Cette image est alors modifiée par des traitements informatiques (amélioration des contrastes, lissage, mise en niveau de gris) effectués par le processeur vidéo. Puis cette image est réduite à une image de 10 x 6 (nombre d'électrodes). Elle est ensuite transmise par ondes radios au boîtier présent dans l'implant. Celui-ci se charge de transformer cet ensemble de pixels en différentes intensités électriques qui seront alors transmises aux électrodes correspondants. Les électrodes stimulent ensuite électriquement les cellules ganglionnaires qui s'occupent de transmettre le message au cerveau par le biais du nerf optique en bypassant les cellules bipolaires . Le patient perçoit alors des phosphènes (sensation de voir une lumière). C'est cet ensemble de phosphènes qui lui permet de distinguer des formes, etc. Cependant il faut qu'il apprendre à interpréter ces phosphènes.</p>
 				</div>
 				<p class="p">Ceci est une hypothèse de comment le système Argus 2 fonctionne. Celui-ci n'étant pas open-source, il est difficile de savoir ce qu'il se passe précisément entre le moment où la caméra filme des images et le moment où les électrodes transmettent de l'électricité aux neurones.</p>
@@ -99,7 +99,7 @@
 				<p>Dans le système Argus 2 et autres systèmes similaires, les informations récupérées par la caméra ne sont pas les mêmes que celles transmises par le biais des électrodes. En effet, celles-ci subissent différents traitements lors du passage dans le vidéo processeur.</p>
 				<p class="prob">Quels sont les différents traitements effectués par le VPU ?</p>
 				<p>J'ai décidé de réaliser un programme en C++ reproduisant les différentes étapes afin de voir ce que le patient devrait "percevoir". Pour ce faire, j'ai utilisé la bibliothèque OpenCV. Ce programme de simulation permet d'effectuer ces différents traitements sur le flux d'une webcam et de l'afficher. De plus, on peut modifier le nombre d'électrodes en largeur (10 par défaut) et en hauteur (6 par défaut), donc par extension la définition de l'image que percevra le patient. On peut également réaliser ces traitements pour un fichier image présent sur le disque dur.<br/>Code source disponible sur Github, <a href="https://github.com/LoicMura/bionic-eye-simulator">ici</a>.<br/>Exécutable disponible, <a href="">ici (broken link)</a>.</p>
-				<center><img src="rsc/Argus2/boitenoir.jpg"></center>
+				<center><img src="rsc/Argus2/boitenoir.JPG"></center>
 			</div>
 		</div>
 
@@ -115,7 +115,7 @@
 					Commençons par récupérer une image en couleur via la webcam.
 					<br/><br/>
 					Code correspondant :</p>
-					<img src="rsc/Argus2/code/1.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c1.jpg" class="code-img">
 				</div>
 			</div>
 
@@ -128,7 +128,7 @@
 					Pour se faire, il suffit simplement de faire la moyenne de la quantité de bleu, noir et rouge pour chaque pixel.
 					<br/><br/>
 					Code correspondant :</p>
-					<img src="rsc/Argus2/code/2.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c2.jpg" class="code-img">
 				</div>
 			</div>
 
@@ -143,9 +143,9 @@
 					Code correspondant :<br/>
 					Ici, "angle" correspond au pourcentage de la largeur à garder.<br/>
 					Tandis que "scale" correspond au ratio de l'image pour que l'image finale ne soit pas déformée.</p>
-					<img src="rsc/Argus2/code/3-1.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c3-1.jpg" class="code-img">
 					<hr>
-					<img src="rsc/Argus2/code/3-2.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c3-2.jpg" class="code-img">
 				</div>	
 			</div>
 
@@ -158,8 +158,8 @@
 					Il faut donc réduire notre image en noir et blanc à une image de 60 pixels seulement. Pour ce faire, nous allons "couper" notre matrice en 60 zones égales et faire la moyenne des valeurs présentes dans ces zones. On pixelise donc l'image.
 					<br/><br/>
 					Code correspondant :</p>
-					<img src="rsc/Argus2/code/4-1.jpg" class="code-img">
-					<img src="rsc/Argus2/code/4-2.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c4-1.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c4-2.jpg" class="code-img">
 				</div>
 			</div>
 
@@ -170,7 +170,7 @@
 					<p>Cependant une rétine saine perçoit une image renversée, comme quand on regarde dans une cuillère. Il suffit donc de retourner notre matrice afin que le patient ne perçoive pas le monde à l'envers. Le pixel en haut à gauche vient à la place de celui en bas à droite et vice versa.
 					<br/><br/>
 					Code correspondant :</p>
-					<img src="rsc/Argus2/code/5.jpg" class="code-img">
+					<img src="rsc/Argus2/code/c5.jpg" class="code-img">
 				</div>
 			</div>
 
