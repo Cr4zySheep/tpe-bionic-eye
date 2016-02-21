@@ -5,3 +5,7 @@ p {
 .dog-image {
 	height: 250px;
 }
+
+p.bold {
+	font-size: 1.2em;
+}
