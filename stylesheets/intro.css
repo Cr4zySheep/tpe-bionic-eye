@@ -9,3 +9,17 @@ p {
 p.bold {
 	font-size: 1.2em;
 }
+
+.right, .left {
+	display: inline-block;
+	margin: 5%;
+}
+
+.left img {
+	height: 250px;
+}
+
+.all {
+	width: 70%;
+	margin: 0 auto;
+}
