@@ -193,6 +193,7 @@ p {
 #avantages {
 	width: 100%;
 	z-index: 0;
+	padding-top: 60px;
 }
 
 #avantages p {
